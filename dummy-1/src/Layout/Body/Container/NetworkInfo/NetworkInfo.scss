@@ -1,0 +1,26 @@
+.network-info {
+    background-color: rgb(98, 33, 160);
+    color: #eee;
+    clip-path: ellipse(100% 55% at 50% 45%);
+    margin-bottom: -6rem;
+
+    &__heading {
+        color: currentColor;
+        font-size: 1.8rem;
+    }
+
+    &__text {
+        margin: 1rem 0;
+        font-size: 1.4rem;
+    }
+
+    &__img-box {
+        width: 100%;
+        margin-bottom: 10rem;
+    }
+
+    &__img {
+        width: 70%;
+    }
+
+}

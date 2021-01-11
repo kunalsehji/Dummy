@@ -1,0 +1,47 @@
+.sub-header {
+    display: flex;
+    color: #eee;
+    padding: 1rem;
+    background-color: rgb(98, 33, 160);
+
+    &__heading {
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: 5rem;
+    font-size: 1.2rem;
+
+    &__item:not(:last-child) {
+        margin-right: 1rem;
+    }
+
+    &__link {
+        &:link,
+        &:visited {
+            display: inline-block;
+            color: #eee;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+
+        &:hover {
+            transform: scale(1.1) translateY(-2px);
+            box-shadow: 0 1rem 2rem rgba(#000, .15);
+        }
+
+        &:active {
+            transform: scale(1) translateY(0);
+            box-shadow: 0 0.5rem 1rem rgba(#000, .15);
+        }
+    }
+}
+
+// .nav-item {
+//     //cursor: pointer;
+// }

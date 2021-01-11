@@ -1,0 +1,21 @@
+.header {
+    background-color: rgb(98, 33, 160);
+    height: 30vh;
+    clip-path: ellipse(100vw 20vh at 50% 30%);
+}
+
+.heading-main {
+    margin: 0;
+    color: #fff;
+    position: absolute;
+    font-size: 5rem;
+    left: 10vw;
+
+    &--1 {
+        top: 3vh;
+    }
+     
+    &--2 {
+        top: 10vh;
+    }
+}
